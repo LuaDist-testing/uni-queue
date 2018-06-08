@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "uni-queue"
-version = "1.1-1"
+version = "1.2-1"
 -- LuaDist source
 source = {
-  tag = "1.1-1",
+  tag = "1.2-1",
   url = "git://github.com/LuaDist-testing/uni-queue.git"
 }
 -- Original source
@@ -21,7 +21,8 @@ description = {
    license = "MIT/X11"
 }
 dependencies = {
-   "lua ~> 5.3"
+   "lua ~> 5.3",
+   "otom >= 1.1"
 }
 build = {
    type = "builtin",
