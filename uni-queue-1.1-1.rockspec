@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "uni-queue"
-version = "1.0-1"
+version = "1.1-1"
 -- LuaDist source
 source = {
-  tag = "1.0-1",
+  tag = "1.1-1",
   url = "git://github.com/LuaDist-testing/uni-queue.git"
 }
 -- Original source
@@ -26,7 +26,7 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      queue = "uni-queue.lua",
-      queue_spec = "uni-queue_spec.lua"
+      ["uni-queue"] = "uni-queue.lua",
+      ["uni-queue_spec"] = "uni-queue_spec.lua"
    }
 }
